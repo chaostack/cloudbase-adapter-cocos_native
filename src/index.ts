@@ -164,7 +164,10 @@ const adapter = {
   runtime: 'cocos_native'
 };
 
-export {
-  adapter
-};
+try {
+  window['tcbAdapterCocos'] = adapter;
+  window['adapter'] = adapter;
+}catch(e){}
+
+export { adapter };
 export default adapter;

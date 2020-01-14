@@ -12,9 +12,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'tcbAdapterWxMp',
+    library: 'tcbAdapterCocos',
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    umdNamedDefine: true,
+    globalObject: 'typeof window !== "undefined"?window:this'
   },
   resolve: {
     extensions: ['.ts', '.js']
