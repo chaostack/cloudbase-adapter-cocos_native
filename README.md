@@ -1,20 +1,25 @@
-## @cloudbase/adapter-cocos_native
+## cloudbase-adapter-cocos_native
 
-[![NPM Version](https://img.shields.io/npm/v/@cloudbase/adapter-cocos_native.svg?style=flat)](https://www.npmjs.com/package/@cloudbase/adapter-cocos_native)
-[![](https://img.shields.io/npm/dt/@cloudbase/adapter-cocos_native.svg)](https://www.npmjs.com/package/@cloudbase/adapter-cocos_native)
+[![NPM Version](https://img.shields.io/npm/v/cloudbase-adapter-cocos_native.svg?style=flat)](https://www.npmjs.com/package/cloudbase-adapter-cocos_native)
+[![](https://img.shields.io/npm/dt/cloudbase-adapter-cocos_native.svg)](https://www.npmjs.com/package/cloudbase-adapter-cocos_native)
 
 tcb-js-sdk cocos native适配器
 
 ## 安装
+### npm
 ```bash
-npm i @cloudbase/adapter-cocos_native -S
+npm i cloudbase-adapter-cocos_native -S
 ```
+
+### Unpkg
+可以使用unpkg托管的js文件，地址如下：
+https://unpkg.com/cloudbase-adapter-cocos_native/dist/index.js
 
 ## 使用
 ### ES Module
 ```javascript
 import tcb from 'tsb-js-sdk';
-import adapter from '@cloudbase/adapter-cocos_native';
+import adapter from 'cloudbase-adapter-cocos_native';
 
 // 以下两种方式二选一
 // 1.单参数传入
@@ -28,7 +33,7 @@ tcb.init();
 ### CommonJS
 ```javascript
 const tcb = require('tsb-js-sdk');
-const {adapter} = require('@cloudbase/adapter-cocos_native');
+const {adapter} = require('cloudbase-adapter-cocos_native');
 
 // 以下两种方式二选一
 // 1.单参数传入

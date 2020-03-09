@@ -1,6 +1,6 @@
 {
   "name": "cloudbase-adapter-cocos_native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "cocos native adapter of cloudbase javascript SDK",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
